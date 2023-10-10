@@ -51,9 +51,9 @@ my_turtle.pendown()  # Lower the pen
 ### 6. Advanced Features in the turtle library
 The Turtle graphics library offers advanced features, as documentedin the [Python Turtle graphics library documentation][1].
  Some of these features include:
--Filling Shapes: You can fill shapes with colors using methods like begin_fill() and end_fill().
--Multiple Turtles: You can work with multiple turtles on the same canvas.
-[1]: https://docs.python.org/3/library/turtle.html
+- Filling Shapes: You can fill shapes with colors using methods like begin_fill() and end_fill().
+- Multiple Turtles: You can work with multiple turtles on the same canvas.
+-[1]: https://docs.python.org/3/library/turtle.html
 
 
 
