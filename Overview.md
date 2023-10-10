@@ -10,13 +10,18 @@
 To actually use Turtle graphics, you'll need to import the `turtle` module like so:
 ```python
 import turtle
+```
 
 ### 2.Creating a turtle
 Now, to create a turtle object, you must use the 'Turtle' class:
-```my_turtle = turtle.Turtle()
+```python
+my_turtle = turtle.Turtle()
+```
 You can now customize the turtle's shape and/or speed using methods from the turtle class:
-```my_turtle.shape('turtle')  # Set the turtle's shape to a turtle icon
+```python
+my_turtle.shape('turtle')  # Set the turtle's shape to a turtle icon
 my_turtle.speed(1)         # Set the turtle's drawing speed (1 is slowest, 10 is fastest)
+```
 
 
 
