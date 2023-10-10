@@ -1,4 +1,4 @@
-#Pong game implementation
+# Pong game implementation
 import turtle
 
 class PongGame:
@@ -80,7 +80,19 @@ class PongGame:
         self.score_board.write('Left Player: {} \t Right Player: {}'.format(
             self.left_score, self.right_score), align='center', font=('Times New Roman', 30, 'normal'))
 
+    def display_controls(self):
+        control_instructions = turtle.Turtle()
+        control_instructions.speed(0)
+        control_instructions.color('white')
+        control_instructions.penup()
+        control_instructions.hideturtle()
+        control_instructions.goto(0, -260)
+        control_instructions.write("Controls:\nRight Player - Up: Up Arrow \tDown: Down Arrow\nLeft Player - Up: W Key\tDown: S Key\nFirst to 5 wins",
+                                   align='center', font=('Arial', 16, 'normal'))
+
     def run_game(self):
+        self.display_controls() 
+
         self.screen.listen()
         self.screen.onkeypress(self.left_paddle_up, 'w')
         self.screen.onkeypress(self.left_paddle_down, 's')

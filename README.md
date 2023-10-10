@@ -26,5 +26,9 @@ These inputs allow players to control their respective paddles and interact with
 The output will vary based on the results of the game. Here are some examples of sample output:
 
 **Real-time Visual Feedback**: Players see the movement of their paddles and the ball on the game screen. The ball's motion, bouncing off paddles and walls, is displayed through the graphics.
+
 2. **Score Updates**: The program keeps track of the scores for both the left and right players. The current scores are displayed at the top of the game window so players can keep track of their progress.
+
 3.**Closing Screen**: When one of the players reaches a score of 5,  the game displays a winning message in the center of the screen, indicating the victorious player.
+
+**Examples of when the game is first loaded, when the right player wins, and when the left player wins**
