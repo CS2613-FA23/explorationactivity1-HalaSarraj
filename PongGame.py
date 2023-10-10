@@ -1,3 +1,4 @@
+#Pong game implementation
 import turtle
 
 class PongGame:
@@ -11,22 +12,11 @@ class PongGame:
         self.right_score = 0
 
     def setup_game(self):
-        left_paddle = turtle.Turtle()
-        left_paddle.speed(0)
-        left_paddle.shape('square')
-        left_paddle.color('red')
-        left_paddle.shapesize(stretch_wid=6, stretch_len=1)
-        left_paddle.penup()
-        left_paddle.goto(-400, 0)
+        # Create and position the paddles
+        left_paddle = self.create_paddle(-400, 0, 'red')
+        right_paddle = self.create_paddle(400, 0, 'blue')
 
-        right_paddle = turtle.Turtle()
-        right_paddle.speed(0)
-        right_paddle.shape('square')
-        right_paddle.color('blue')
-        right_paddle.shapesize(stretch_wid=6, stretch_len=1)
-        right_paddle.penup()
-        right_paddle.goto(400, 0)
-
+        # Create and position the ball
         ball = turtle.Turtle()
         ball.speed(40)
         ball.shape('circle')
@@ -36,6 +26,7 @@ class PongGame:
         ball.dx = 5
         ball.dy = -5
 
+        # Create and position the score display
         score_board = turtle.Turtle()
         score_board.speed(0)
         score_board.color('green')
@@ -45,18 +36,18 @@ class PongGame:
         score_board.write('Left Player: 0 \t Right Player: 0',
                           align='center', font=('Times New Roman', 30, 'normal'))
 
-        # Display control instructions
-        control_instructions = turtle.Turtle()
-        control_instructions.speed(0)
-        control_instructions.color('white')
-        control_instructions.penup()
-        control_instructions.hideturtle()
-        control_instructions.goto(0, -280)
-        control_instructions.write("Controls:\nRight Player - Up: Up Arrow \tDown: Down Arrow\nLeft Player - Up: W Key\tDown: S Key\nFirst to 5 wins",
-                                   align='center', font=('Arial', 16, 'normal'))
-
         return left_paddle, right_paddle, ball, score_board
-    
+
+    def create_paddle(self, x, y, color):
+        paddle = turtle.Turtle()
+        paddle.speed(0)
+        paddle.shape('square')
+        paddle.color(color)
+        paddle.shapesize(stretch_wid=6, stretch_len=1)
+        paddle.penup()
+        paddle.goto(x, y)
+        return paddle
+
     def left_paddle_up(self):
         y = self.left_paddle.ycor()
         if y < 240:
@@ -111,15 +102,15 @@ class PongGame:
 
             if ((self.ball.xcor() > 360) and
                (self.ball.xcor() < 370) and
-               (self.ball.ycor() < self.right_paddle.ycor()+40) and
-               (self.ball.ycor() > self.right_paddle.ycor()-40)):
+               (self.ball.ycor() < self.right_paddle.ycor() + 40) and
+               (self.ball.ycor() > self.right_paddle.ycor() - 40)):
                 self.ball.setx(360)
                 self.ball.dx *= -1
 
             if ((self.ball.xcor() < -360) and
                (self.ball.xcor() > -370) and
-               (self.ball.ycor() < self.left_paddle.ycor()+40) and
-               (self.ball.ycor() > self.left_paddle.ycor()-40)):
+               (self.ball.ycor() < self.left_paddle.ycor() + 40) and
+               (self.ball.ycor() > self.left_paddle.ycor() - 40)):
                 self.ball.setx(-360)
                 self.ball.dx *= -1
 
