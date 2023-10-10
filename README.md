@@ -31,4 +31,4 @@ The output will vary based on the results of the game. Here are some examples of
 
 3.**Closing Screen**: When one of the players reaches a score of 5,  the game displays a winning message in the center of the screen, indicating the victorious player.
 
-**Examples of when the game is first loaded, when the right player wins, and when the left player wins**
+**Examples of when the game is first loaded, when the right player wins, and when the left player wins provided as screenshots.**
