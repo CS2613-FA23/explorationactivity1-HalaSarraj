@@ -6,7 +6,7 @@
 ## **_Question 2:_ What is the package/library?**
 - _What purpose does it serve?_ : The Turtle graphics library in Python serves multiple valuable purposes. Primarily, it acts as an **educational tool**, providing an interactive and visually engaging way to teach programming concepts, especially to beginners. It is also a practical choice for **creating graphics, art, and simple animations**, making it accessible to programmers of all skill levels. Finally, it encourages **creative exploration and experimentation**, allowing programmers to invent their own drawing algorithms and artistic creations.
 
-- _How do you use it?_ :
+- _How do you use it?_ : You need to import the turtle module, create a turtle object, then give it commands to draw. This is demonstrated here:
  ### 1.Basic Setup 
 To actually use Turtle graphics, you'll need to import the `turtle` module like so:
 ```python
@@ -49,11 +49,11 @@ my_turtle.pendown()  # Lower the pen
 ```
 
 ### 6. Advanced Features in the turtle library
-The Turtle graphics library offers advanced features, as documentedin the [Python Turtle graphics library documentation][1].
+The Turtle graphics library offers advanced features, as shown in the documentation [^1^].
  Some of these features include:
 - Filling Shapes: You can fill shapes with colors using methods like begin_fill() and end_fill().
 - Multiple Turtles: You can work with multiple turtles on the same canvas.
--[1]: https://docs.python.org/3/library/turtle.html
+- [^1^]: Python Turtle Graphics Documentation, https://docs.python.org/3/library/turtle.html
 
 
 
