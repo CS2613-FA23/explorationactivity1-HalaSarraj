@@ -1,73 +1,36 @@
-<!DOCTYPE html>
-<html>
+# My Wiki Page
 
-<head>
-  <style>
-    body {
-      background-color: #FFD3E0;
-      color: #000000;
-      font-family: Arial, sans-serif;
-      padding: 20px;
-    }
-    
-    h1, h2, h3, h4, h5, h6 {
-      color: #4A90E2;
-    }
-    
-  </style>
-</head>
+## **_Question 1:_**
+- Answer 1
+- Answer 2
+- Answer 3
 
-<body>
-  <h1>Exploring the Turtle Graphics Library in Python</h1>
+## **_Question 2:_**
+- Answer 1
+- Answer 2
+- Answer 3
 
-  <h2><i><b>Question 1:</b></i></h2>
-  <ul>
-    <li>Answer 1</li>
-    <li>Answer 2</li>
-    <li>Answer 3</li>
-  </ul>
+## **_Question 3:_**
+- Answer 1
+- Answer 2
+- Answer 3
 
-  <h2><i><b>Question 2:</b></i></h2>
-  <ul>
-    <li>Answer 1</li>
-    <li>Answer 2</li>
-    <li>Answer 3</li>
-  </ul>
+## **_Question 4:_**
+- Answer 1
+- Answer 2
+- Answer 3
 
-  <h2><i><b>Question 3:</b></i></h2>
-  <ul>
-    <li>Answer 1</li>
-    <li>Answer 2</li>
-    <li>Answer 3</li>
-  </ul>
+## **_Question 5:_**
+- Answer 1
+- Answer 2
+- Answer 3
 
-  <h2><i><b>Question 4:</b></i></h2>
-  <ul>
-    <li>Answer 1</li>
-    <li>Answer 2</li>
-    <li>Answer 3</li>
-  </ul>
+## **_Question 6:_**
+- Answer 1
+- Answer 2
+- Answer 3
 
-  <h2><i><b>Question 5:</b></i></h2>
-  <ul>
-    <li>Answer 1</li>
-    <li>Answer 2</li>
-    <li>Answer 3</li>
-  </ul>
-
-  <h2><i><b>Question 6:</b></i></h2>
-  <ul>
-    <li>Answer 1</li>
-    <li>Answer 2</li>
-    <li>Answer 3</li>
-  </ul>
-
-  <h2><i><b>Question 7:</b></i></h2>
-  <ul>
-    <li>Answer 1</li>
-    <li>Answer 2</li>
-    <li>Answer 3</li>
-  </ul>
-</body>
-
-</html>
+## **_Question 7:_**
+- Answer 1
+- Answer 2
+- Answer 3
