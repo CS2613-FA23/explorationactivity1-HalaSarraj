@@ -72,6 +72,8 @@ for _ in range(5):
 
 turtle.done()
 ```
+**Output:**
+![Drawing A Star](Staroutput.png)
 
 - Pen Control:
 ```python
@@ -91,6 +93,9 @@ for i in range(36):
 
 turtle.done()
 ```
+**Output:**
+![Spiral with PenControl](spiral.png)
+
 - Setting the color of the drawing:
 ```python
 import turtle
@@ -105,6 +110,9 @@ my_turtle.circle(50)
 
 turtle.done()
 ```
+**Output:**
+![Blue Circle](blueCircle.png)
+
 - Turning the turtle at certain angles:
 ```python
 import turtle
@@ -118,6 +126,8 @@ my_turtle.forward(100)
 
 turtle.done()
 ```
+**Output:**
+![Drawing at a 45 degree angle](angles.png)
 
 
 ## **_Question 4:_ When was it created?**
