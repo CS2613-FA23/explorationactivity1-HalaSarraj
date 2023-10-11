@@ -57,7 +57,7 @@ The Turtle graphics library offers advanced features, as shown in the documentat
 
 
 
-## **_Question 3 _What are the functionalities of the package/library?**
+## **_Question 3:_ What are the functionalities of the package/library?**
 The library has multiple functionalities and features such as:
 - Drawing using commands Example:
 ```python
@@ -133,6 +133,6 @@ turtle.done()
 -I practiced and reviewed the implementations of **Coordinates & Geometry ** by moving the turtle to specific positions on the screen.
 -I was able to see immediate **Visual Feedback** from the code I was writing, and I could see how my code was affecting the output with the smallest changes.
 
-## **_Question 7:_ How was your overall experience with the package/library? **
+## **_Question 7:_ How was your overall experience with the package/library?**
 - _When would you recommend this package/library to someone?_: Turtle is a graphics library, which makes it the most useful when a programmer wants to implement animations or graphics into their code. So I would be recommended it whenever someone wants to draw or animate and see the results on the screen.
 - _Would you continue using this package/library? Why or why not?_: Yes I would, Turtle was very easy to work with and grasp the concepts of and I would probably immediately think about it if I has a programming problem where I had to utilize a library or package that required drawing shapes and colors etc...
