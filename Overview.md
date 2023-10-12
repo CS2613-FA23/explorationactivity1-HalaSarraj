@@ -134,10 +134,10 @@ turtle.done()
 - It was created in 1967 as an implementation of the popular geometric drawing tools introduced in Logo.
 
 ## **_Question 5:_ Why did you select this package/library**
-- I chose to use turtle because I wanted to find a way to use graphics in Python instead of the standard input / output of the terminal. I wanted a practical way to view the output of my code line-by-line through the use of visual graphics, and I decided to do that by creating the classing Pong game to test out its functionalities.
+- I chose to use turtle because I wanted to find a way to use graphics in Python instead of the standard input / output of the terminal. I wanted a practical way to view the output of my code line-by-line through the use of visual graphics, and I decided to do that by creating the classic Pong game to test out its functionalities.
 
 ## **_Question 6:_ How did learning the package/library influence your learning of the language**
-- Learning turtle helped me understand Python better in the following ways: 
+Learning turtle helped me understand Python better in the following ways: 
 - I had to use and practice **Control Flow** through the usage of conditionals and loops.
 -I learned **Event Handling** in Python by listening in to certain key presses
 -I practiced and reviewed the implementations of **Coordinates & Geometry ** by moving the turtle to specific positions on the screen.
